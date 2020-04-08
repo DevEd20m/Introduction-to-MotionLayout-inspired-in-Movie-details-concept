@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:motion="http://schemas.android.com/apk/res-auto">
-
     <Transition
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
@@ -10,9 +9,6 @@
             motion:dragDirection="dragUp"
             motion:touchAnchorId="@+id/include"
             motion:touchAnchorSide="top" />
-        <KeyFrameSet>
-
-        </KeyFrameSet>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
@@ -34,9 +30,9 @@
                 android:layout_height="wrap_content"
                 motion:layout_constraintEnd_toEndOf="parent"
                 motion:layout_constraintStart_toStartOf="parent"
-                motion:layout_constraintTop_toBottomOf="@id/id_title" />
+                motion:layout_constraintTop_toBottomOf="@id/idTitle" />
         </Constraint>
-        <Constraint android:id="@+id/id_title">
+        <Constraint android:id="@+id/idTitle">
             <Layout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -68,9 +64,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 motion:layout_constraintBottom_toBottomOf="parent"
-                motion:layout_constraintTop_toBottomOf="@id/id_title" />
+                motion:layout_constraintTop_toBottomOf="@id/idTitle" />
         </Constraint>
-        <Constraint android:id="@+id/id_title">
+        <Constraint android:id="@+id/idTitle">
             <Layout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

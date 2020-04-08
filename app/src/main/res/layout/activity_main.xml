@@ -2,7 +2,7 @@
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/motion_base"
+    android:id="@+id/motionBase"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/activity_main_scene"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@id/id_title" />
 
     <include
-        android:id="@+id/id_title"
+        android:id="@+id/idTitle"
         layout="@layout/title_main"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

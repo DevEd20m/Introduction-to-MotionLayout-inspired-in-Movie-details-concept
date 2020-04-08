@@ -6,7 +6,6 @@
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
         motion:duration="3000">
-<!--        <OnSwipe motion:touchAnchorId="@id/include" />-->
         <KeyFrameSet></KeyFrameSet>
     </Transition>
 
